@@ -17,34 +17,20 @@ html {
     padding-top: 200px;
     height: 100vh;
     display: block;
-    background-image: url("../images/Summersky.jpeg")
+    background-image: url("../images/Summersky.jpeg");
     background-size: cover;
     text-align: center;
 }
 
 .icon-heart, .icon-arrow, .icon-peace {
+    color: $white;
     font-size: 20em;
-    color: white;
+    &:hover {
+    color: $babyblue;
+    font-size: 20em;
+    }
 }
 
-.icon-heart:hover,
-.icon-heart:active,
-.icon-heart:focus {
- color: #b9dbf9;
-}
-
-.icon-peace:hover,
-.icon-peace:active,
-.icon-peace:focus {
- color: #b9dbf9;
-}
-
-.icon-arrow:hover,
-.icon-arrow:active,
-.icon-arrow:focus {
- color: #b9dbf9;
-}
 .icon-heart, .icon-arrow, .icon-peace i {
   vertical-align:inherit;
 }
-
