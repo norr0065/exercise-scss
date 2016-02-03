@@ -1,8 +1,7 @@
-@mixin button($bg-color){        //⬅︎ The argument passed is in the round brackets
-  display: inline-block;
-  margin: 1em;
-  padding: .5em 1em;
-  border-radius: 3px;
-  text-decoration: none;
-  background: $bg-color;         //⬅︎ It gets used within the mixin here
+@mixin text($color){
+    color: $color;
+    text-transform: uppercase;
+    font-size: 3em;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
