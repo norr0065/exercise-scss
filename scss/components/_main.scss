@@ -13,21 +13,13 @@ html {
   box-sizing: inherit;
 }
 
-img {
-  height: 90%; 
-    width: 100%;
-}
-
-body {
-    background: url("../images/Summersky.jpeg") center no-repeat;
-    width:100%;
-    height:100vh;
-    overflow-x: hidden:
-}
-
-.logos{
-    text-align: center;
+.iconset {
     padding-top: 200px;
+    height: 100vh;
+    display: block;
+    background-image: url("../images/Summersky.jpeg")
+    background-size: cover;
+    text-align: center;
 }
 
 .icon-heart, .icon-arrow, .icon-peace {
