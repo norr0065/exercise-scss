@@ -1,0 +1,58 @@
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+    
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+     text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+  height: 90%; 
+    width: 100%;
+}
+
+body {
+    background: url("../images/Summersky.jpeg") center no-repeat;
+    width:100%;
+    height:100vh;
+    overflow-x: hidden:
+}
+
+.logos{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.icon-heart, .icon-arrow, .icon-peace {
+    font-size: 20em;
+    color: white;
+}
+
+.icon-heart:hover,
+.icon-heart:active,
+.icon-heart:focus {
+ color: #b9dbf9;
+}
+
+.icon-peace:hover,
+.icon-peace:active,
+.icon-peace:focus {
+ color: #b9dbf9;
+}
+
+.icon-arrow:hover,
+.icon-arrow:active,
+.icon-arrow:focus {
+ color: #b9dbf9;
+}
+.icon-heart, .icon-arrow, .icon-peace i {
+  vertical-align:inherit;
+}
+
